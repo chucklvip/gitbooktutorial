@@ -2,29 +2,36 @@
     "title": "GitBook 实战教程",
     "description": "本书将带您从零学习 GitBook, 让您成为写书高手",
     "author": "Chuck",
-    "isbn" : "9787000000001",
-    "language" : "zh",
-    "gitbook" : ">= 3.2.2",
+    "isbn": "9787000000001",
+    "language": "zh-hans",
+    "gitbook": ">= 3.2.2",
     "plugins": [
-        "mathjax",
-        "mermaid",
-        "github",
-        "splitter",
-        "toggle-chapters",
-        "sectionx",
-        "donate",
-        "image-captions",
-        "chart",
-        "github-buttons",
-        "duoshuo"
-
+        "mathjax@1.1.2",
+        "js-sequence-diagram@0.0.8",
+        "mermaid@0.0.9",
+        "github@1.0.2",
+        "splitter@0.0.8",
+        "toggle-chapters@0.0.3",
+        "sectionx@3.1.0",
+        "donate@1.0.2",
+        "image-captions@3.1.0",
+        "chart@0.2.0",
+        "github-buttons@3.0.0",
+        "local-video@1.0.1",
+        "youtubex@2.0.3",
+        "katex@1.1.4",
+        "exercises@3.0.0",
+        "youtube@1.1.0"
     ],
+    "styles": {
+        "website": "styles/website.css"
+    },
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/chucklvip/gitbooktutorial"
         },
         "tbfed-pagefooter": {
-            "copyright":"&copy Taobao FED Team",
+            "copyright": "&copy chucklvip",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -37,11 +44,7 @@
             "wechatText": "微信打赏"
         },
         "image-captions": {
-          "caption": "图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
-        },
-        "duoshuo": {
-            "short_name": "龍捲風",
-            "theme": "default"
+            "caption": "图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
         }
     }
 }

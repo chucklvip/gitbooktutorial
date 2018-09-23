@@ -2,7 +2,7 @@
 
 ***
 
-&emsp;&emsp;**GitBook**是开源的, 一个基于Node.js的命令行工具, 可使用 Github\/Git和Markdown（或者AsciiDoc）来制作精美的电子书, GitBook并非关于Git的教程。最终可以生成 3 种格式：
+&emsp;&emsp;**GitBook**是开源的, 一个基于Node.js的命令行工具, 可使用 Github \/ Git 和 Markdown（或者AsciiDoc）来制作精美的电子书, GitBook并非关于Git的教程。最终可以生成 3 种格式：
 
 * PDF：PDF 格式的文件
 * eBook：ePub 格式的电子书文件
